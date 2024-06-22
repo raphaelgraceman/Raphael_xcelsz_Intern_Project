@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-    content="Raphael Dotse's Web Frontend Development is an assignment portal 
-    meant to host and display pages of completed weekly assignments.">
+    content="This is Raphael's prroject practice for Xcelszproperty.">
     <meta name="author" content="Raphael Dotse">
 
     <link rel="icon" href="images/favicon.png">
@@ -21,7 +20,9 @@
     <link rel="stylesheet" href="styles/normalise.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
-    
+    <link rel="stylesheet" href="styles/form-small.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+
    
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,11 +64,10 @@
                 <div id="menu"></div>
                 <nav>
                     <ul class="navigation">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="#">Directory</a></li>
                         <li><a href="#">Deals</a></li>
-                        <li><a href="#">Join</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="join.html">Contact</a></li>
                     </ul>
                 </nav>
                 
@@ -86,17 +86,16 @@
     </header>
 
     <!--main-->
-    <main>
-        <!--Main-->
-     <main id="main">
+   
+    <main id="main">
         <div class="membership-form"> 
-        <!---Form -->
+            <!---Form -->
             <form method="get" action="thankyou.html" >
                 <fieldset>
                     <legend>Personal Info</legend>
                     <label class="top">First Name*<input type="text" name="fname" required id="firstName"></label>
                     <label class="top">Last Name*<input type="text" name="lname" required id="lastName"></label>
-                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required id="e-mail"></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="raphael@gmail.com" required id="e-mail"></label>
                     <label class="top">Phone <input type="tel" name="phone" placeholder="0546229003" id="phone"></label>
                 </fieldset>
             
@@ -110,6 +109,12 @@
                 <!--Submission Button-->
                 <input id="submitBtn" type="submit" value="submit">
             </form>
+        </div>
+
+
+        <div id="location-map">
+            <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1985.4174563590184!2d-0.4504144129344094!3d5.591399247015865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1698494935759!5m2!1sen!2sgh" 
+            width="150" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </main>
 
@@ -126,13 +131,6 @@
                     <h3><br><br>Xcelszproperty.Com<br> <br><span id="digital_address">CX-187-9363, Kasland City</span></h3>
                 </div>
     
-                
-                <div>
-                    <div>
-                        <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1985.4174563590184!2d-0.4504144129344094!3d5.591399247015865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1698494935759!5m2!1sen!2sgh" 
-                        width="150" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
             </div>
         </nav>
         <div id="footer_row2">
