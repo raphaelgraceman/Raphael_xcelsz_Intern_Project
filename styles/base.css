@@ -209,7 +209,15 @@ main {
 .estate-building {
     width: 100%;
     height: 100%;
-    
+}
+#our-deals {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px 120px;
+    margin-top: 10px;
+}
+#our-deals p{
+    margin-left: 15px;
+    font-style: italic;
 }
 .art {
     display: none;

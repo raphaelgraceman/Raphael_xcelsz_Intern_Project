@@ -214,14 +214,16 @@
     }
     .art {
         display: block;
-        margin-bottom: 140px;
+        margin-bottom: 2px;
         margin-top: 200px;
         margin-left: 40%;
         border-radius: 15px;
+        opacity: .2;
     }
     .art p {
         position: relative;
         margin-left: 10%;
+       
     }
     #available-land h4{
         padding: 40px;
@@ -240,6 +242,15 @@
     #available-land {
         margin-left: 10%;
         margin-right: 10%;
+    }
+    #our-deals {
+        width: 820px;
+        margin-left: 20%;
+        margin-bottom: 120px;
+       color: black;
+        padding: 5px;
+        opacity: .5;
+        
     }
 
     .slides, .mainSlides {
