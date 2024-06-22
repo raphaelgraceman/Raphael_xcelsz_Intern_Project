@@ -19,8 +19,9 @@
     <meta name="twitter:card" content="summary_large_image">
 
     <link rel="stylesheet" href="styles/normalise.css">
-    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
+    
    
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,13 +31,13 @@
     <title>Xcelszproperty.com</title>
 </head>             
 <body>
-    <div id="banner"><marquee><i>Moderately priced and highly much affordable properties available here!</i></marquee></div>
+    <div id="banner"><marquee><i>Moderately priced and highly much affordable properties available for YOU!</i></marquee></div>
     <header>
         <div id="headeritems">
             <div id="mode">
                 🕶️
             </div>
-            <div class="headline" id="timestamp">
+            <div class="header-section "  id="timestamp">
                 <div id="brand-details">
                     <a href="index.html">
                         <img src="images/XP-logo.webp" alt="Logo" loading="lazy">
@@ -54,7 +55,7 @@
                     <a href="https://web.facebook.com/profdotseraphael" target="_blank">
                         <img src="images/facebook.png" alt="fb icon" loading="lazy"></a>
                     <a href="tel:+233546229003" target="_blank">
-                        <img src="#" alt="Caller-icon" loading="lazy"></a>
+                        <img src="images/caller-icon.png" alt="Caller-icon" loading="lazy"></a>
                     <a href="https://www.youtube.com/channel/UC66TaeWF4VClYB6eqzK9rtA" target="_blank">
                         <img src="images/youtube.jpg" alt="YouTube Icon" loading="lazy"></a>
                 </div>
@@ -69,9 +70,16 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
+                
                 <!---Current Date-->
                 <div id="currentdate"></div>
-                <span id="call-us"><a href="tel:+233546229003">Call Us</a></span>
+                <span id="email-us"><a href="mailto:raphaelprominence10@gmail.com"><img src="images/eamil-icon.png" alt="YouTube Icon" loading="lazy"></a></span>
+
+                <!-- Search Bar --->
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for properties or deals...">
+                    <button>Search</button>
+                </div>
             </div>
         </div>
         
@@ -79,8 +87,23 @@
 
     <!--main-->
     <main>
-    
+        <div id="hero-banner"><h2>
+            <span id="pop-message" class="welcome-pop hidden-pops">Build The Future Now!</span><br>
+            <span id="welcome_banner" class="welcome-pop hidden-pops">Welcome !</span></h2>
 
+        </div>
+        <!--hero image-->
+        <div id="hero_image">    
+            <picture>
+                <div id="book-now">
+                    <a href="#">Book a Site View Here</a>
+                </div>
+                <img class="slides slides-hidden" src="images/utah-hero-large-s.webp" alt="slides" loading="lazy">
+                <img id="hero-image2" class="slides slides-hidden" src="images/hero.jpg" alt="slides" loading="lazy">
+
+               
+            </picture>
+        </div>
     </main>
 
 
@@ -89,16 +112,14 @@
         <nav id="footing_navs">
             <div id="footer-nav">
                 <a class="logo_link" href="index.html">
-                    <img class="footer_logo" src="images/logo_75x75.png" alt="Xcelszproperty logo">
+                    <img class="footer_logo" src="images/XP-logo.webp" alt="Xcelszproperty logo">
                 </a>
     
                 <div id="footer_head">
                     <h3><br><br>Xcelszproperty.Com<br> <br><span id="digital_address">CX-187-9363, Kasland City</span></h3>
                 </div>
     
-                <div id="contact-info">
-                    <span>raphaelgraceman@gmail.com</span> <br><span>+(233) 5462-29003</span><br>
-                </div>
+                
                 <div>
                     <div>
                         <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1985.4174563590184!2d-0.4504144129344094!3d5.591399247015865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1698494935759!5m2!1sen!2sgh" 
@@ -112,11 +133,13 @@
             <span class="name">Dotse Raphael         </span>    
             <span class="course_name">Xcelszproperty Intern Project  </span>   
             <span class="last_modified"><span id="no_modifies" > Last Modified:</span> <span id="currentDate"></span> </span>
+            <br><br><br><p>The footer is currently under the way. This is not the planned design.</p>
         </div>
        </footer>
    
 
     <script src="scripts/index.js"></script>
+    <script src="scripts/search-bar.js"></script>
     <script src="./weather/index.js"></script>
 </body>
 </html>
